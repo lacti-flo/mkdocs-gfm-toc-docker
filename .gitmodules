@@ -1,0 +1,3 @@
+[submodule "gfm-toc"]
+	path = gfm-toc
+	url = https://github.com/lacti/gfm-toc.git
