@@ -1,0 +1,14 @@
+site_name: Example
+docs_dir: docs
+repo_url: https://github.com/lacti/mkdocs-gfm-toc-docker
+
+theme:
+  name: material
+
+markdown_extensions:
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+
