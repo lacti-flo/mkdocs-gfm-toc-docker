@@ -15,6 +15,18 @@ I use MkDocs on Monorepo so I want to use _Table of Contents_ for whole document
 
 ## Usage
 
+Use [`buildoc.sh`](buildoc.sh) to build site easily!
+
+```bash
+$ bash buildoc.sh input-dir output-dir
+# or
+$ bash buildoc.sh input-dir output-dir ../mkdocs.yml
+# then
+$ tree output-dir
+```
+
+### By manual
+
 1. Put `mkdocs.yml` in working directory.
 2. Put all documents and resources into `$PWD/docs` directory
 
