@@ -1,4 +1,4 @@
-NAME=lacti/mkdocs-gfm-toc
+NAME=registry.infra.music-flo.io/test/mkdocs-gfm-toc
 
 all: build push
 	# All done

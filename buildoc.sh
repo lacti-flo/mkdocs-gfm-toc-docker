@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-DOCKER_IMAGE="${DOCKER_IMAGE:-"lacti/mkdocs-gfm-toc"}"
+DOCKER_IMAGE="${DOCKER_IMAGE:-"registry.infra.music-flo.io/test/mkdocs-gfm-toc"}"
 INPUT_DIR="${1:-""}"
 OUTPUT_DIR="${2:-""}"
 MKDOCS_PATH="${3:-"${INPUT_DIR}/mkdocs.yml"}"

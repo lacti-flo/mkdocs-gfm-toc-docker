@@ -36,7 +36,7 @@ And then, we can run `mkdocs` using this Docker image and get all built result f
 docker run \
   -u ${UID} \
   -v $PWD:/opt \
-  lacti/mkdocs-gfm-toc \
+  registry.infra.music-flo.io/test/mkdocs-gfm-toc \
   build
 ```
 
